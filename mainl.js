@@ -1,8 +1,10 @@
 let presentacion = "Hola bienvenido a la compra de componentes para pc"
 alert(presentacion)
 
-const nombre = prompt("¿Podrias ingresas tu nombre por favor?") 
-alert("Bienvenido")
+function solicitarNombre() {
+    let nombreIngresado = prompt("Ingresar nombre")
+    alert("El nombre ingresado es " + nombreIngresado)
+}
 
 let edad = prompt("¿Ahora podrias ingresar tu edad?")
 if(edad >= "18"){
@@ -40,20 +42,15 @@ if(quiereComprar == true){
             }
         break
     default:
-        alert("No me queda stock")
+        alert("Gracias por su compra")
     }
 }else{
     alert("Nos vemos que tenga buen dia")
 }
 
 
-let numero1 = 1000000
-let numero2 = 300000
-let numero3 = 500000
 
-function sumar(numero1, numero2){
-    resultado = numero1 + numero2       
-}console.log(sumar)
+
 
 
 
