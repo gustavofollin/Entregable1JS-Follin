@@ -6,6 +6,8 @@ function solicitarNombre() {
     alert("El nombre ingresado es " + nombreIngresado)
 }
 
+solicitarNombre();
+
 let edad = prompt("¿Ahora podrias ingresar tu edad?")
 if(edad >= "18"){
     alert("Ahora podemos continuar")
